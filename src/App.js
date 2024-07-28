@@ -98,7 +98,7 @@ function App({ initialData = {
                     Submit
                 </button>
             </div>
-            { isFormValid && (<p>Your data will print check into console after submitting form </p>)}
+            { isFormValid && (<p>Your data will print check into console after submitting form . this form is fully accesible to disables use screen reader  </p>)}
         </form>
         </div>
         
