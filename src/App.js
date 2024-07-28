@@ -98,7 +98,7 @@ function App({ initialData = {
                     Submit
                 </button>
             </div>
-            { isFormValid && <p>Your data is printed check into console</p>}
+            { isFormValid && (<p>Your data is printed check into console</p>)}
         </form>
         </div>
         
